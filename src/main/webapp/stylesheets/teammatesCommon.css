@@ -1509,3 +1509,26 @@ Prevent Long URL From Breaking Out of Container
 .icon-info::before {
     content: '\e086';
 }
+
+.scrollToTop {
+    position: fixed;
+    bottom: 50px;
+    right: 5px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #eaeaea;
+    color: #000000;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.scrollToTop:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+.scrollToTop:hover{
+    text-decoration: none;
+}

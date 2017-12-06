@@ -211,6 +211,7 @@
       </li>
     </ul>
   </div>
+  <a href="#top" class="scrollToTop">Back To Top</a>
   <div class="separate-content-holder">
     <hr>
   </div>
@@ -224,4 +225,5 @@
   <jsp:include page="partials/instructorHelpSections.jsp"/>
   <jsp:include page="partials/instructorHelpArchiving.jsp"/>
   <jsp:include page="partials/instructorHelpComments.jsp"/>
+
 </t:helpPage>
